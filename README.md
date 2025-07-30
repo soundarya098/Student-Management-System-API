@@ -21,14 +21,17 @@ A secure backend API for managing student records with authentication and CRUD o
 
 
 ## 📌 API Endpoints
-1.POST /register – Register a new user
-2.POST /login – Login and get token
-3.POST /students – Add student (JWT required)
-4.GET /students – Get all students (JWT required)
-5.PUT /students/<id> – Update student by ID (JWT required)
-6.DELETE /students/<id> – Delete student by ID (JWT required)
+- POST /register – Register a new user
+- POST /login – Login and get token
+- POST /students – Add student (JWT required)
+- GET /students – Get all students (JWT required)
+- PUT /students/<id> – Update student by ID (JWT required)
+- DELETE /students/<id> – Delete student by ID (JWT required)
 
 ## ▶ How to Run
 ```bash
 pip install -r requirements.txt
 python app.py
+
+## The API will start at:
+http://127.0.0.1:5000/
